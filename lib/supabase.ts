@@ -66,3 +66,10 @@ export const STATUS_ORDER: ApplicationStatus[] = [
   "rejected",
   "withdrawn",
 ];
+
+export const ROLE_CATEGORIES = [
+  "AI Product Manager",
+  "Product Manager",
+  "Product Owner",
+  "Agile Coach",
+] as const;
